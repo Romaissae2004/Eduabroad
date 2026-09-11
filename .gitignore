@@ -1,0 +1,54 @@
+# =========================
+# Symfony / PHP
+# =========================
+
+eduabroad/.env
+eduabroad/.env.local
+eduabroad/.env.*.local
+eduabroad/var/
+eduabroad/vendor/
+
+# Symfony cache/logs
+eduabroad/.phpunit.result.cache
+
+# =========================
+# React / Vite / Node
+# =========================
+
+Front/eduabroad_frontend/node_modules/
+Front/eduabroad_frontend/dist/
+
+# Environment variables
+Front/eduabroad_frontend/.env
+Front/eduabroad_frontend/.env.local
+Front/eduabroad_frontend/.env.*.local
+
+# =========================
+# IDE
+# =========================
+
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Uploaded documents
+# =========================
+
+eduabroad/public/uploads/documents/*
+
+# Keep the upload directory
+!eduabroad/public/uploads/documents/.gitkeep
+
+# =========================
+# Temporary / debug files
+# =========================
+
+eduabroad/scratch/
